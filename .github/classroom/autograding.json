@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "run": "jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 notebook.ipynb --stdout",
+      "name": "Test Notebook Imports",
+      "input": "",
+      "setup": "",
+      "output": "",
+      "points": 20,
+      "timeout": 90,
+      "comparison": "exact"
+    },
+    {
+      "run": "jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 notebook.ipynb --stdout",
+      "name": "Test Image Load",
+      "input": "",
+      "setup": "",
+      "output": "",
+      "points": 20,
+      "timeout": 90,
+      "comparison": "exact"
+    },
+    {
+      "run": "jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 notebook.ipynb --stdout",
+      "name": "Test Image Properties",
+      "input": "",
+      "setup": "",
+      "output": "",
+      "points": 20,
+      "timeout": 90,
+      "comparison": "exact"
+    },
+    {
+      "run": "jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 notebook.ipynb --stdout",
+      "name": "Test Image Conversion",
+      "input": "",
+      "setup": "",
+      "output": "",
+      "points": 20,
+      "timeout": 90,
+      "comparison": "exact"
+    },
+    {
+      "run": "jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 notebook.ipynb --stdout",
+      "name": "Test Image Display",
+      "input": "",
+      "setup": "",
+      "output": "",
+      "points": 20,
+      "timeout": 90,
+      "comparison": "exact"
+    }
+  ]
+}
